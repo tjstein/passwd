@@ -1,13 +1,13 @@
-# passwd.heorkuapp.com
+# passwd
 
-Make random alphanumeric password with 8 characters
+Generate random alphanumeric passwords with 13 characters
 
 ## Usage:
 
 Copy to Unix clipboard:
 
 ```bash
-curl http://passwd.herokuapp.com | pbcopy
+curl –s http://passwd.tjstein.com 2>/dev/null | pbcopy
 ```
 
 ## Test:
@@ -29,7 +29,3 @@ And then:
 ```bash
 $ mocha
 ```
-
-## WTF ?
-
-The purpose of this piece of code is educational and because I keep forgetting to backup my own script, so I tought it'd fit well being a simple HTTP request.
