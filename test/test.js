@@ -3,8 +3,8 @@ var assert, request;
 assert = require('assert');
 request = require('request');
 
-describe('passwd.herokuapp.com', function() {
-  it('should return 8 characteres long random alphanumeric strings, 100 times', function(done) {
+describe('passwd.tjstein.com', function() {
+  it('should return 13 characteres long random alphanumeric strings, 100 times', function(done) {
     var n;
 
     for(n = 100; n--;) {

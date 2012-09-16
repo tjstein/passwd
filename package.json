@@ -1,9 +1,9 @@
 {
-  "name": "passwd.herokuapp.com",
+  "name": "passwd.tjstein.com",
   "version": "1.0.0",
-  "description": "Make random alphanumeric password with 8 characters",
-  "author": "Arthur Corenzan <arthur@corenzan.com>",
-  "homepage": "http://passwd.herokuapp.com",
+  "description": "Make random alphanumeric password with 13 characters",
+  "author": "TJ Stein <thomasjstein@gmail.com>",
+  "homepage": "http://passwd.tjstein.com",
   "repository": {
     "type": "git",
     "url": ""
