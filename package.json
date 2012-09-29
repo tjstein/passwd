@@ -1,12 +1,12 @@
 {
-  "name": "passwd.tjstein.com",
+  "name": "passwd",
   "version": "1.0.0",
   "description": "Make random alphanumeric password with 13 characters",
   "author": "TJ Stein <thomasjstein@gmail.com>",
   "homepage": "http://passwd.tjstein.com",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/tjstein/passwd.git"
   },
   "engines": {
     "node": ">= 0.8.3",

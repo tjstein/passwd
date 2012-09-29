@@ -10,7 +10,7 @@ describe('passwd.tjstein.com', function() {
     for(n = 100; n--;) {
       (function(n) {
         request('http://localhost:1337', function(error, response, body) {
-          assert(!!body.match(/^[a-zA-z0-9]{8}$/));
+          assert(!!body.match(/^[a-zA-z0-9]{13}$/));
           n === 0 && done();
         });
       })(n);
